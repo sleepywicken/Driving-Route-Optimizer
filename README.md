@@ -33,6 +33,7 @@ Open in browser:
 http://localhost:8000
 
 ---- How to Use ----
+
 Input Format:
 Enter one stop per line in the textbox.
 
@@ -53,18 +54,21 @@ Numbered stops
 Click markers to see names
 
 ---- How It Works ----
+
 Addresses are converted to coordinates (geocoding)
 A nearest-neighbor algorithm determines stop order
 OSRM generates the actual driving route
 Leaflet renders everything on the map
 
 ---- Limitations ----
+
 Best for 5–20 stops (up to ~50 with caching)
 Optimization is based on straight-line distance, not traffic or real driving time
 Public APIs may rate-limit heavy usage
 Geocoding accuracy depends on address quality
 
 ---- Caching ----
+
 The app uses browser localStorage to cache geocoded addresses:
 Speeds up repeat usage
 Reduces API calls
