@@ -19,6 +19,7 @@ Enter a list of addresses (with optional names), and the app calculates an effic
 - Vanilla JavaScript
 
 ---- Setup ----
+
 Clone or download this repo
 Open the file:
 index.html
